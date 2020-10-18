@@ -15,7 +15,7 @@ class Deciduous extends Tree {
   }
   
   definition() {
-    return super.definition + 'Deciduous trees shed their leaves annually.';
+    return super.definition() + 'Deciduous trees shed their leaves annually.';
   }
 }
 
@@ -26,6 +26,6 @@ class Evergreen extends Tree {
   }
   
   definition() {
-    return super.definition + 'Evergreens keep their leaves all year round.';
+    return super.definition() + 'Evergreens keep their leaves all year round.';
   }
 }
